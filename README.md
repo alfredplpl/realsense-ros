@@ -26,7 +26,7 @@ cd ~/catkin_ws/src/
 ```
 - Clone the latest Intel&reg; RealSense&trade; ROS from [here](https://github.com/intel-ros/realsense/releases) into 'catkin_ws/src/'
 ```bashrc
-git clone https://github.com/IntelRealSense/realsense-ros.git
+git clone https://github.com/alfredplpl/realsense-ros.git
 cd realsense-ros/
 git checkout `git tag | sort -V | grep -P "^\d+\.\d+\.\d+" | tail -1`
 cd ..
